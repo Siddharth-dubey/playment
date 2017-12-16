@@ -1,0 +1,66 @@
+$primary-font:'sans-serif';
+.app-header {
+    position: fixed;
+    display: flex;
+    background: #fff;
+    height: 50px;
+    width: 100%;
+    z-index: 8888;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.16);
+    .header-wrap {
+        display: flex;
+        width: 100%;
+        .left-section,
+        .right-section {
+            flex: 1;
+            display: flex;
+        }
+        .left-section {
+            .logo {
+                width: 150px;
+                line-height: 50px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .logo-holder {
+                    width: 71px;
+                    height: 40px;
+                }
+            }
+        }
+        .right-section {
+            justify-content: flex-end;
+            .info-wrap {
+                width: 350px;
+                display: flex;
+            }
+            .user-wrap {
+                display: flex;
+                justify-content: space-around;
+                flex: 2;
+                align-items: center;
+                .user-img-holder {
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 5px;
+                }
+                .user-info {
+                    font-family: sans-serif;
+                    color: #847d7d; // font-weight: bold;
+                    font-size: 12px;
+                }
+            }
+            .notifications,
+            .settings {
+                flex: 1;
+                display: flex;
+                color: #847d7d;
+                justify-content: center;
+                align-items: center;
+            }
+            .settings {
+                border-left: 1px solid #efefef;
+            }
+        }
+    }
+}

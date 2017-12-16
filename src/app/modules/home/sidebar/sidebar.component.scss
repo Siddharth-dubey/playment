@@ -1,0 +1,38 @@
+.app-sidebar {
+    width: 150px;
+    background: #fff;
+    position: fixed;
+    height: 100%;
+    overflow: scroll;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.16);
+    ul {
+        .nav-item {
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            border-bottom: 1px solid #eee;
+            .icon {
+                display: flex;
+                flex: 1;
+            }
+            i {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                flex: 1;
+                color: #847d7d;
+            }
+            a {
+                color: #847d7d;
+                text-decoration: none;
+                height: 50px;
+                display: flex;
+                flex: 2;
+                align-items: center;
+                font-size: 14px;
+                font-family: sans-serif;
+            }
+        }
+    }
+}

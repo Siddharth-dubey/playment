@@ -1,0 +1,5 @@
+<section class="dashboard-wrap">
+  <button (click)="createFolder()">Create new folder</button>
+  <h2>Current Directory- {{(app$ | async).get('currentDirectory')}}</h2>
+  <pl-directory [node]="(app$ | async).get('nodes')"></pl-directory>
+</section>

@@ -1,0 +1,19 @@
+.dashboard-wrap {
+    margin: 25px; // background: #fff;
+    width: calc(100% - 50px); // height: 200px;
+    button {
+        border: 0;
+        padding: 20px;
+        margin-bottom: 20px;
+        background: #8b7dff;
+        color: #fff;
+        font-size: 14px;
+        cursor: pointer;
+    }
+    h2 {
+        font-family: sans-serif;
+        font-size: 24px;
+        font-weight: normal;
+        color: #847d7d;
+    }
+}

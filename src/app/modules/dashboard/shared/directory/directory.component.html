@@ -1,0 +1,6 @@
+<div class="folder" (click)="setDir(node.get('name'))">{{node.get('name')}}</div>
+<ul class="root">
+  <li class="item" *ngFor="let node of node.get('children');let i=index;">
+    <pl-directory [node]="node" [index]="i"></pl-directory>
+  </li>
+</ul>
